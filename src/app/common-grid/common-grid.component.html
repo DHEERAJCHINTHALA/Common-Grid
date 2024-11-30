@@ -11,7 +11,7 @@
             <td *ngFor="let colum of gridColumns" scope="row" class="align-items-center">
                 {{rows[colum]}}
             </td>
-            <!-- <td>
+            <td>
                 <div *ngIf="status">
                     <div *ngIf="rows['IsActive']; else inActive">
                         <button type="button" class="btn btn-outline-success" (click)='statesChang(rows)'>
@@ -40,7 +40,7 @@
                 </div>
       
 
-            </td> -->
+            </td>
         </tr>
     </tbody>
 </table>
